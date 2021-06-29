@@ -1,0 +1,17 @@
+.avatar{
+  text-align:center;
+  color:deepskyblue;
+  font-family:'Gill Sans';
+  font-size:2em;
+}
+.avatar img {
+width:150px;
+align:center;
+
+}
+.content {
+  display: grid;
+  grid-template-rows: 2fr;
+  grid-template-columns: 2fr 4fr;
+  background-color:lightskyblue;
+}

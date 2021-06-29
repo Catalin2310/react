@@ -1,0 +1,29 @@
+.header {
+  grid-area: h;
+}
+
+.nav {
+  display: grid;
+   grid-template-columns: 2fr 2fr 2fr 2fr;
+
+}
+.navitem{
+  display:inline;
+  text-align:center;
+  margin:200px;
+
+}
+.navitem a {
+font-size:25px;
+  font-family: 'Times New Roman', Times, serif;
+  color:darksalmon;
+}
+
+.navitem a:hover {
+  color:cornflowerblue;
+
+}
+
+.navitem a.active {
+  color:aqua;
+}
